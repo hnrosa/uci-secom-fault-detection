@@ -6,6 +6,8 @@ For that, we are going to use the UCI SECOM Dataset. The first file contains 156
 
 Dataset avaliable in: https://archive.ics.uci.edu/ml/datasets/SECOM
 
+(Tradução PT)
+
 No processo de fabricação de produtos semicondutores, muitas etapas de produção são necessárias, envolvendo o uso de diferentes máquinas. É difícil eliminar ou identificar disfunções em cada etapa do tratamento. As condições de operação em um ambiente de controle de processo podem frequentemente mudar, intencionalmente ou não. É por isso que a identificação de KPIVs (Key Process Input Variables) é essencial para permitir uma rápida recuperação, otimização e controle. O objetivo deste estudo de caso é desenvolver uma abordagem de seleção de características causais que se aplique a este domínio, ajude a resolver problemas de controle de processos e a aprimorar estratégias gerais de melhoria de negócios.
 
 Para isso, vamos usar o UCI SECOM Dataset. O primeiro arquivo contém 1567 exemplos, cada um com 591 feições, formando assim uma matriz de dimensões 1567 x 591. O segundo arquivo é um arquivo de etiquetas que contém as classificações e timestamps correspondentes a cada exemplo. Como em todas as situações de dados reais, esses dados podem conter valores nulos que variam em intensidade com base nas características individuais. Não apenas isso, mas o conjunto de dados também é desequilibrado, pois contém apenas 104 falhas (6,6% exemplos).
